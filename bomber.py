@@ -77,7 +77,7 @@ def check_intr():
         requests.get("https://motherfuckingwebsite.com")
     except Exception:
                try:
-               requests.get("https://google.com")
+              requests.get("https://google.com")
         except Exception:
             bann_text()
             mesgdcrt.FailureMessage("Poor internet connection detected")
